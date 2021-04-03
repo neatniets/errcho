@@ -1,0 +1,13 @@
+.TH "errcho" "1" "2021-04-03" "niets" "User Commands"
+.SH "NAME"
+errcho - echo text to stderr
+.SH "SYNOPSIS"
+asdf
+.SH "DESCRIPTION"
+asdf
+.SH "OPTIONS"
+asdf
+.SH "EXIT STATUS"
+Always 0
+.SH "SEE ALSO"
+.BR echo (1)
