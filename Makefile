@@ -1,5 +1,7 @@
 .POSIX:
 
+include config.mk
+
 .SUFFIXES:
 .SUFFIXES: .c .o
 
