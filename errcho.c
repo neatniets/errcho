@@ -4,7 +4,7 @@
 
 #define NONEWLINE_OPT   "-n"
 
-/* usage: prog [-n] [string [string ...]] */
+/* usage: prog [-n] [string] ... */
 int
 main(int argc,
      char **argv) {
