@@ -1,13 +1,26 @@
-.TH "errcho" "1" "2021-04-03" "niets" "User Commands"
-.SH "NAME"
-errcho - echo text to stderr
-.SH "SYNOPSIS"
-asdf
-.SH "DESCRIPTION"
-asdf
-.SH "OPTIONS"
-asdf
-.SH "EXIT STATUS"
-Always 0
-.SH "SEE ALSO"
+.TH "errcho" "1" "" "niets" "User Commands"
+.
+.SH NAME
+errcho \- echo text to stderr
+.
+.SH SYNOPSIS
+.B errcho
+.RB [ \-n ]
+.RI [ string
+.RI ...]
+.
+.SH DESCRIPTION
+Echo each \fIstring\fP with a space between them to standard error.
+By default, a trailing newline is printed.
+The \fB\-n\fP option must come before any \fIstring\fP.
+.
+.SH OPTIONS
+.TP
+.B \-n
+Don't print the trailing newline.
+.
+.SH EXIT STATUS
+Will always exit with status 0.
+.
+.SH SEE ALSO
 .BR echo (1)
