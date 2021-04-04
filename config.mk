@@ -1,7 +1,7 @@
 # make config file
 
 CC = gcc
-CFLAGS = -O2
+#CFLAGS =
 
 PREFIX = /usr/local
 MANPREFIX = $(PREFIX)/share/man
