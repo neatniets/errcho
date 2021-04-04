@@ -1,0 +1,5 @@
+errcho - echo text to stderr
+
+installation:
+1. [optional] configure make variables in config.mk
+2. `sudo make install`
